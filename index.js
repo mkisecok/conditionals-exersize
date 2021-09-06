@@ -54,13 +54,13 @@ divider('Aufgabe 4');
 const originalString= 'pay';
 const newString= 'Py' + originalString;
 
-if (newString.startsWith('Py'))
+if (originalString.startsWith('Py'))
 {
     console.log(originalString);
 }
 else
 {
-    console.log('Steht da keine Py');
+    console.log('fangt es nicht mit  Py an ');
 }
 
 divider('Aufgabe 5');
@@ -125,6 +125,44 @@ else
 }
 
 divider('Aufgabe 10');
+
+const a2 = 20;
+const difference1 = a2 - 19;
+
+
+if(a2 > 19)
+{
+    console.log(difference1*2);
+}
+else 
+{
+    console.log('a2 ist nicht großer als 19');
+}
+
+divider('Aufgabe 11');
+
+const firstName = 'Mahmut';
+const age = 26;
+
+if(age < 13)
+{
+    console.log(`${firstName} is a child`);
+}
+else if(age >= 13 && age < 20)
+{
+    console.log(`${firstName} is a teenager`);
+}
+else if(age >= 20 && age < 30)
+{
+    console.log(`${firstName} is a young adult`);
+}
+else
+{
+    console.log(`${firstName} is a adult`);
+}
+
+
+
 
 
 
